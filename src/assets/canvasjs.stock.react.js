@@ -74,7 +74,6 @@ class CanvasJSStockChart extends React.Component {
 		return !(nextProps.options === this.options);
 	}
 	componentDidUpdate() {
-		//Update Chart Options & Render
 		this.stockChart.options = this.props.options;
 		this.stockChart.render();
 	}

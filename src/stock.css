@@ -1,9 +1,20 @@
+/* .container{
+background-image: url("./assets/5514827.jpg");
+} */
+
+
+form{
+  margin-top: 10px;
+}
+*
+{
+  margin:0px;
+}
 .form-grp{
     width: 250px;
     margin: auto;
 }
 
-         
 .btn-grad {
     background-image: linear-gradient(to right, #1D976C 0%, #93F9B9  51%, #1D976C  100%);
     margin: auto;
@@ -19,8 +30,12 @@
   }
 
   .btn-grad:hover {
-    background-position: right center; /* change the direction of the change here */
+    background-position: right center;
     color: #fff;
     text-decoration: none;
   }
+
+  /* .container{
+    background-color:;
+  } */
  
